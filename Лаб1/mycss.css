@@ -1,0 +1,50 @@
+
+.links {
+    list-style: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(232, 213, 200, 0.638);
+    margin: 10px;
+    padding: 30px;
+}
+
+h1 {
+    color:rgb(107, 48, 0);
+    padding: 0px;
+    margin: 20px;
+}
+
+h2 {
+    color:rgb(107, 48, 0);
+    margin: 20px;
+}
+
+#first {
+    color: rgba(185, 10, 10, 0.705);
+    display: flex;
+    justify-content: center;
+
+}
+
+img {
+    scale: 70%;
+    margin: 5px;
+    border-radius: 20px;
+    border-width: 10px;
+    border-style:double;
+    border-color: rgb(107, 48, 0);
+}
+
+.container_images {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-auto-flow: row dense;
+    gap: 5px;
+    /* display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center; */
+}
